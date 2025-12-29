@@ -1,3 +1,4 @@
+#House Price Prediction – ML + Flask
 This project is a simple house price prediction system built as part of my journey exploring the Machine Learning and Cloud Computing domains. I started by training a machine learning model using Python and scikit-learn, and then converted that notebook-based work into a Flask web application.
 
 The application allows users to enter house-related features through a web interface and get a predicted house price as output. This helped me understand how a trained ML model can be reused in a real-world setting instead of being limited to Jupyter notebooks.
