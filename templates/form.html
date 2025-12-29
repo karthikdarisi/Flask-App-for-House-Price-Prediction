@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <h3>Enter the below details to get the predicted house price</h3>
+    <form method="POST">
+        <input type="number" name="area_sqft" placeholder="Enter Area in Square Feet"><br>
+        <input type="number" name="bedrooms" placeholder="Enter no of Bedrooms"><br>
+        <input type="number" name="bathrooms" placeholder="Enter no of Bathrooms"><br>
+        <input type="number" name="age_of_house" placeholder="Enter Age of House(years)"><br>
+        <input type="number" name="distance_from_city" placeholder="Enter Distance from City in km"><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

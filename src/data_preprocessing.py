@@ -9,6 +9,4 @@ def preprocess(data):
     data['Bedrooms']=data['Bedrooms'].fillna(data['Bedrooms'].mode()[0])
     data['Age_of_house']=data['Age_of_house'].fillna(data['Age_of_house'].median())
     data['Area_sqft']=data['Area_sqft'].fillna(data['Area_sqft'].median())
-    x=data.drop(['Id','Price'],axis=1)
-    y=data['Price']
-    return x,y,data
+    return data

@@ -1,20 +1,9 @@
-House Price Prediction
-Project Overview
-This project delves into the machine learning workflow by predicting housing prices based on a fabricated dataset. I created this to comprehend how the different featuressuch as size, age, and locationaffect the market value of a house by means of Linear Regression.
-Project Structure
-The local repository is set up to be in line with the industry standards for data science projects:
-data/: The raw CSV dataset (1,000 entries) is included here.
-notebooks/: Jupyter notebooks for Exploratory Data Analysis (EDA) and model prototyping.
-src/: Python scripts for data preprocessing, model training, and evaluation.
-requirements.txt: The file lists all the Python libraries needed to execute the project.
-Dataset Features
-The model considers the following characteristics:
-Area (sqft): Total square footage of the house.
-Bathrooms/Bedrooms: Number of rooms.
-Distance from City (km): Proximity to the city center.
-Age of the House: Years since construction.
-Key Insights & Model Results
-The model employed Linear Regression to figure out the price influencers most:
-* Top Positive Driver: Bathrooms had the highest positive coefficient ($+325,659$), indicating that they are the main medium of luxury demonstration in this dataset.
-* The "Location" Penalty: The price goes down by around $7,022$ for every kilometer away from the city.
-* Depreciation:Each year, the value of the house decreases by approximately $25,186.
+This project is a simple house price prediction system built as part of my journey exploring the Machine Learning and Cloud Computing domains. I started by training a machine learning model using Python and scikit-learn, and then converted that notebook-based work into a Flask web application.
+
+The application allows users to enter house-related features through a web interface and get a predicted house price as output. This helped me understand how a trained ML model can be reused in a real-world setting instead of being limited to Jupyter notebooks.
+
+The main goal of this project was learning rather than perfection. Through this, I learned how to structure an ML project, handle preprocessing consistently, load a saved model, and connect everything using Flask. It also gave me clarity on how backend logic, preprocessing, and prediction flow together in an application.
+
+Currently, the project works completely in a local environment. The next step is deploying the application on AWS EC2 to understand basic cloud deployment and hosting.
+
+This project represents my early exploration as a UG1 student and will continue to evolve as I learn more about cloud computing and production-level applications.
