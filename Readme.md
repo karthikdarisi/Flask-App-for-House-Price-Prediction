@@ -5,6 +5,4 @@ The application allows users to enter house-related features through a web inter
 
 The main goal of this project was learning rather than perfection. Through this, I learned how to structure an ML project, handle preprocessing consistently, load a saved model, and connect everything using Flask. It also gave me clarity on how backend logic, preprocessing, and prediction flow together in an application.
 
-Currently, the project works completely in a local environment. The next step is deploying the application on AWS EC2 to understand basic cloud deployment and hosting.
-
 This project represents my early exploration as a UG1 student and will continue to evolve as I learn more about cloud computing and production-level applications.
